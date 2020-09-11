@@ -1,0 +1,6 @@
+E:\Main\PEngine\TestProjects\PEngineCMakeTool\bin\Release\PEngineCMakeTool.dll
+E:\Main\PEngine\TestProjects\PEngineCMakeTool\bin\Release\PEngineCMakeTool.pdb
+E:\Main\PEngine\TestProjects\PEngineCMakeTool\obj\Release\PEngineCMakeTool.csproj.CoreCompileInputs.cache
+E:\Main\PEngine\TestProjects\PEngineCMakeTool\obj\Release\PEngineCMakeTool.dll
+E:\Main\PEngine\TestProjects\PEngineCMakeTool\obj\Release\PEngineCMakeTool.pdb
+E:\Main\PEngine\TestProjects\PEngineCMakeTool\obj\Release\PEngineCMakeTool.csprojAssemblyReference.cache

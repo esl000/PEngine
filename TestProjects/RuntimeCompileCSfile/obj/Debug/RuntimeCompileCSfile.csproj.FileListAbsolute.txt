@@ -1,0 +1,7 @@
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\bin\Debug\RuntimeCompileCSfile.exe.config
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\bin\Debug\RuntimeCompileCSfile.exe
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\bin\Debug\RuntimeCompileCSfile.pdb
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\obj\Debug\RuntimeCompileCSfile.csprojAssemblyReference.cache
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\obj\Debug\RuntimeCompileCSfile.csproj.CoreCompileInputs.cache
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\obj\Debug\RuntimeCompileCSfile.exe
+E:\Main\PEngine\TestProjects\RuntimeCompileCSfile\obj\Debug\RuntimeCompileCSfile.pdb

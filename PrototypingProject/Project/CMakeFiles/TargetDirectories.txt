@@ -1,0 +1,10 @@
+E:/Main/PEngine/PrototypingProject/Project/CMakeFiles/ALL_BUILD.dir
+E:/Main/PEngine/PrototypingProject/Project/CMakeFiles/ZERO_CHECK.dir
+E:/Main/PEngine/PrototypingProject/Project/Player/WindowPlayer/CMakeFiles/PEngineWindowPlayer.dir
+E:/Main/PEngine/PrototypingProject/Project/Player/WindowPlayer/CMakeFiles/ALL_BUILD.dir
+E:/Main/PEngine/PrototypingProject/Project/Runtime/Core/CMakeFiles/CoreModule.dir
+E:/Main/PEngine/PrototypingProject/Project/Runtime/Core/CMakeFiles/ALL_BUILD.dir
+E:/Main/PEngine/PrototypingProject/Project/Runtime/Platform/CMakeFiles/Platform.dir
+E:/Main/PEngine/PrototypingProject/Project/Runtime/Platform/CMakeFiles/ALL_BUILD.dir
+E:/Main/PEngine/PrototypingProject/Project/Runtime/Rendering/CMakeFiles/RenderingModule.dir
+E:/Main/PEngine/PrototypingProject/Project/Runtime/Rendering/CMakeFiles/ALL_BUILD.dir
