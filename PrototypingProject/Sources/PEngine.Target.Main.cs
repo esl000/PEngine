@@ -11,6 +11,7 @@ public class PEngine : SolutionCMakeSetting
 
         SubProjectName.AddRange(new List<string>()
         {
+            "MathModule",
             "Platform",
             "RenderingModule",
             "PEngineWindowPlayer",

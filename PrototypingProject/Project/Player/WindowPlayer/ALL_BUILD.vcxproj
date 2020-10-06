@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,7 +93,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

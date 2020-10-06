@@ -1,0 +1,10 @@
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\bin\Debug\AutoCMakeListsGenerator.exe.config
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\bin\Debug\AutoCMakeListsGenerator.exe
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\bin\Debug\AutoCMakeListsGenerator.pdb
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\bin\Debug\PEngineCMakeTool.dll
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\bin\Debug\PEngineCMakeTool.pdb
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\obj\Debug\AutoCMakeListsGenerator.csprojAssemblyReference.cache
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\obj\Debug\AutoCMakeListsGenerator.csproj.CoreCompileInputs.cache
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\obj\Debug\AutoCMakeListsGenerator.csproj.CopyComplete
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\obj\Debug\AutoCMakeListsGenerator.exe
+E:\Main\PEngine\TestProjects\AutoCMakeListsGenerator\obj\Debug\AutoCMakeListsGenerator.pdb

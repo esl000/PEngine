@@ -2,6 +2,13 @@
 #include <WindowInstance.h>
 #include <PEngineCore.h>
 
+#ifdef _DEBUG
+#define PlatformAPI __declspec(dllimport)
+#else
+
+#endif // _DEBUG
+
+
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
@@ -54,8 +61,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 		return 0;
 	}
 
-	PWindowInstance::GetInstance()->Initialize(hInstance, hWnd);
-	PEngineCore::GetInstance()->Initialize();
+	g_PWindowInstance->Initialize(hInstance, hWnd);
+	g_PEngineCore->Initialize();
 
 	ShowWindow(hWnd, SW_SHOWDEFAULT);
 
@@ -69,9 +76,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 		}
 		if (msg.message == WM_QUIT)
 			break;
-	} while (PEngineCore::GetInstance()->UpdateApplication());
+	} while (g_PEngineCore->UpdateApplication());
 
-	PEngineCore::GetInstance()->Release();
+	g_PEngineCore->Release();
 
 	return 0;
 }

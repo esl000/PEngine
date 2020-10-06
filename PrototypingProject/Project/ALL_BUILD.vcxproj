@@ -170,17 +170,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{61C05946-02AC-3356-828F-8370C87E8702}</Project>
       <Name>CoreModule</Name>
     </ProjectReference>
+    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\MathModule\MathModule.vcxproj">
+      <Project>{C82399F3-EEA4-3402-8F00-49517AAC3287}</Project>
+      <Name>MathModule</Name>
+    </ProjectReference>
     <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Player\WindowPlayer\PEngineWindowPlayer.vcxproj">
       <Project>{FE27B402-1E95-3EE0-B9E5-0DAD13F46CCB}</Project>
       <Name>PEngineWindowPlayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Platform\Platform.vcxproj">
-      <Project>{0F2790D2-32E9-3DE6-B328-3D9AEF0FD933}</Project>
-      <Name>Platform</Name>
-    </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Rendering\RenderingModule.vcxproj">
-      <Project>{D5720955-F51F-32FA-90FB-B59B6E33166A}</Project>
-      <Name>RenderingModule</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

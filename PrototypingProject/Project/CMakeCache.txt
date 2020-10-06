@@ -189,10 +189,10 @@ CoreModule_LIB_DEPENDS:STATIC=general;RenderingModule;general;Platform;
 CoreModule_SOURCE_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Sources/Runtime/Core
 
 //Value Computed by CMake
-PEngieWindowPlayer_BINARY_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Project/Player/WindowPlayer
+MathModule_BINARY_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Project/Runtime/MathModule
 
 //Value Computed by CMake
-PEngieWindowPlayer_SOURCE_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Sources/Player/WindowPlayer
+MathModule_SOURCE_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Sources/Runtime/MathModule
 
 //Value Computed by CMake
 PEngineWindowPlayer_BINARY_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Project/Player/WindowPlayer
@@ -209,11 +209,17 @@ PEngine_SOURCE_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Sources
 //Value Computed by CMake
 Platform_BINARY_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Project/Runtime/Platform
 
+//Dependencies for the target
+Platform_LIB_DEPENDS:STATIC=general;CoreModule;
+
 //Value Computed by CMake
 Platform_SOURCE_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Sources/Runtime/Platform
 
 //Value Computed by CMake
 RenderingModule_BINARY_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Project/Runtime/Rendering
+
+//Dependencies for the target
+RenderingModule_LIB_DEPENDS:STATIC=general;CoreModule;general;Platform;
 
 //Value Computed by CMake
 RenderingModule_SOURCE_DIR:STATIC=E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering
@@ -301,7 +307,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

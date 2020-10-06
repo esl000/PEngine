@@ -1,4 +1,0 @@
-﻿  Main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\crtdbg.h(303): warning C4005: '_malloca': 매크로 재정의
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\malloc.h(122): note: '_malloca'의 이전 정의를 참조하십시오.
-  PEngineWindowPlayer.vcxproj -> E:\Main\PEngine\PrototypingProject\Project\Player\WindowPlayer\Debug\PEngineWindowPlayer.exe

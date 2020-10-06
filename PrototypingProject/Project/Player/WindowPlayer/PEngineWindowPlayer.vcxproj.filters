@@ -9,6 +9,9 @@
     <CustomBuild Include="E:\Main\PEngine\PrototypingProject\Sources\Player\WindowPlayer\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="E:\Main\PEngine\PrototypingProject\Sources\Player\WindowPlayer\PEngineWindowPlayer.Target.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Filter Include="Private">
       <UniqueIdentifier>{8BA1D210-859D-3458-8E6A-DDA4B6D35855}</UniqueIdentifier>
     </Filter>

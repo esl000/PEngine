@@ -8,5 +8,10 @@ public class RenderingModule : ProjectCMakeSetting
     {
         ProjectName = "RenderingModule";
         IsLibrary = true;
+
+        LinkedLibrarys.AddRange(new List<string>() {
+            "CoreModule",
+            "Platform"
+        });
     }
 }

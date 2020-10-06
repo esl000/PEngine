@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("E:/Main/PEngine/PrototypingProject/Project/Player/WindowPlayer/cmake_install.cmake")
   include("E:/Main/PEngine/PrototypingProject/Project/Runtime/Core/cmake_install.cmake")
+  include("E:/Main/PEngine/PrototypingProject/Project/Runtime/MathModule/cmake_install.cmake")
   include("E:/Main/PEngine/PrototypingProject/Project/Runtime/Platform/cmake_install.cmake")
   include("E:/Main/PEngine/PrototypingProject/Project/Runtime/Rendering/cmake_install.cmake")
 

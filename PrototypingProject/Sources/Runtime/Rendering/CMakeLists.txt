@@ -2,17 +2,45 @@ cmake_minimum_required(VERSION 3.1)
 
 project(RenderingModule)
 
-source_group(Private Private/Test.cpp
+source_group(Private FILES Private/Graphics.cpp
 )
 
-source_group(Public Public/Test.h
+source_group(Private\\DirectX FILES Private/DirectX/D3D12Core.cpp
+Private/DirectX/d3dUtil.cpp
+Private/DirectX/DirectXHeader.cpp
+)
+
+source_group(Public FILES Public/Graphics.h
+)
+
+source_group(Public\\DirectX FILES Public/DirectX/D3D12Core.h
+Public/DirectX/d3dUtil.h
+Public/DirectX/d3dx12.h
+Public/DirectX/DirectXHeader.h
+)
+
+add_library(RenderingModule E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/RenderingModule.Target.cs
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/Graphics.cpp
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/DirectX/D3D12Core.cpp
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/DirectX/d3dUtil.cpp
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/DirectX/DirectXHeader.cpp
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/Graphics.h
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/DirectX/D3D12Core.h
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/DirectX/d3dUtil.h
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/DirectX/d3dx12.h
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/DirectX/DirectXHeader.h
 )
 
 include_directories( E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/DirectX
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Core/Public
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Core/Public/Base
+E:/Main/PEngine/PrototypingProject/Sources/Runtime/Platform/Public/Windows
 )
 
-add_library(RenderingModule E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/Test.cpp
-E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/Test.h
+target_link_libraries(RenderingModule CoreModule
+Platform
 )
 
+add_definitions(-D_EDITABLE_PROJECT)
 add_definitions(-D_UNICODE)

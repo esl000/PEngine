@@ -75,7 +75,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -88,15 +88,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +109,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -120,17 +120,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -154,17 +154,17 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -189,15 +189,15 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_EDITABLE_PROJECT;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -265,23 +265,16 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <None Include="E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\CoreModule.Target.cs" />
     <ClCompile Include="E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Private\PEngineCore.cpp" />
+    <ClCompile Include="E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Private\Base\PEngineMacros.cpp" />
     <ClInclude Include="E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\PEngineCore.h" />
+    <ClInclude Include="E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base\PEngineMacros.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\ZERO_CHECK.vcxproj">
-      <Project>{1F8389BE-E835-3B33-8D21-72230412990F}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
     <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Platform\Platform.vcxproj">
       <Project>{0F2790D2-32E9-3DE6-B328-3D9AEF0FD933}</Project>
       <Name>Platform</Name>
-    </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Rendering\RenderingModule.vcxproj">
-      <Project>{D5720955-F51F-32FA-90FB-B59B6E33166A}</Project>
-      <Name>RenderingModule</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

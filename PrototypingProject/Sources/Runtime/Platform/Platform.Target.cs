@@ -8,5 +8,9 @@ public class Platform : ProjectCMakeSetting
     {
         ProjectName = "Platform";
         IsLibrary = true;
+
+        LinkedLibrarys.AddRange(new List<string>() {
+            "CoreModule"
+        });
     }
 }
