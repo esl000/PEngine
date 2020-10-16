@@ -1,5 +1,6 @@
-#include <WindowHeader.h>
-#include <WindowInstance.h>
+#include <windows.h>
+#include <sdkddkver.h>
+
 #include <PEngineCore.h>
 
 #ifdef _DEBUG
@@ -61,7 +62,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 		return 0;
 	}
 
-	g_PWindowInstance->Initialize(hInstance, hWnd);
 	g_PEngineCore->Initialize();
 
 	ShowWindow(hWnd, SW_SHOWDEFAULT);

@@ -166,13 +166,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Core\CoreModule.vcxproj">
-      <Project>{61C05946-02AC-3356-828F-8370C87E8702}</Project>
-      <Name>CoreModule</Name>
+    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Core\Core.vcxproj">
+      <Project>{501E5BCE-BAED-3706-9B91-DB5B888BEEAE}</Project>
+      <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\MathModule\MathModule.vcxproj">
-      <Project>{C82399F3-EEA4-3402-8F00-49517AAC3287}</Project>
-      <Name>MathModule</Name>
+    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Math\Math.vcxproj">
+      <Project>{0D392585-0FE9-33DB-860E-993587EC938E}</Project>
+      <Name>Math</Name>
     </ProjectReference>
     <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Player\WindowPlayer\PEngineWindowPlayer.vcxproj">
       <Project>{FE27B402-1E95-3EE0-B9E5-0DAD13F46CCB}</Project>

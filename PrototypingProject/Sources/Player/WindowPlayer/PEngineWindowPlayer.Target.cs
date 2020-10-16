@@ -11,10 +11,9 @@ public class PEngineWindowPlayer : ProjectCMakeSetting
         IsLibrary = false;
 
         LinkedLibrarys.AddRange(new List<string>() {
-            "MathModule",
-            "RenderingModule",
-            "Platform",
-            "CoreModule"
+            "Math",
+            "Rendering",
+            "Core"
         });
     }
 }

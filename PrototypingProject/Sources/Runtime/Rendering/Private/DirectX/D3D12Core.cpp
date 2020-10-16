@@ -1,5 +1,4 @@
 #include <D3D12Core.h>
-#include <WindowInstance.h>
 
 using namespace Microsoft::WRL;
 
@@ -103,7 +102,7 @@ void D3D12Core::CreateDevice()
 	sd.SampleDesc.Quality = b4xMsaaState ? (i4xMsaaQuality - 1) : 0;
 	sd.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
 	sd.BufferCount = SwapChainBufferCount;
-	sd.OutputWindow = g_PWindowInstance->GetMainHWND();
+	sd.OutputWindow = nullptr; //temp
 	sd.Windowed = true;
 	sd.SwapEffect = DXGI_SWAP_EFFECT_FLIP_DISCARD;
 	sd.Flags = DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH;

@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,7 +93,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -166,9 +166,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Rendering\RenderingModule.vcxproj">
-      <Project>{D5720955-F51F-32FA-90FB-B59B6E33166A}</Project>
-      <Name>RenderingModule</Name>
+    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Core\Core.vcxproj">
+      <Project>{501E5BCE-BAED-3706-9B91-DB5B888BEEAE}</Project>
+      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

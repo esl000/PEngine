@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(RenderingModule)
+project(Rendering)
 
 source_group(Private FILES Private/Graphics.cpp
 )
@@ -19,7 +19,7 @@ Public/DirectX/d3dx12.h
 Public/DirectX/DirectXHeader.h
 )
 
-add_library(RenderingModule E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/RenderingModule.Target.cs
+add_library(Rendering E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Rendering.Target.cs
 E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/Graphics.cpp
 E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/DirectX/D3D12Core.cpp
 E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Private/DirectX/d3dUtil.cpp
@@ -35,11 +35,9 @@ include_directories( E:/Main/PEngine/PrototypingProject/Sources/Runtime/Renderin
 E:/Main/PEngine/PrototypingProject/Sources/Runtime/Rendering/Public/DirectX
 E:/Main/PEngine/PrototypingProject/Sources/Runtime/Core/Public
 E:/Main/PEngine/PrototypingProject/Sources/Runtime/Core/Public/Base
-E:/Main/PEngine/PrototypingProject/Sources/Runtime/Platform/Public/Windows
 )
 
-target_link_libraries(RenderingModule CoreModule
-Platform
+target_link_libraries(Rendering Core
 )
 
 add_definitions(-D_EDITABLE_PROJECT)

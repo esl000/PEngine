@@ -52,3 +52,5 @@ public:\
 #define FAILED(hr)      (((HRESULT)(hr)) < 0)
 
 #define ASSERT_SUCCEEDED(hr)   assert((((HRESULT)(hr)) >= 0));
+
+#define FORCEINLINE __forceinline

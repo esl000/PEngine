@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\Runtime\MathModule\Debug\MathModule.lib;..\..\Runtime\Rendering\Debug\RenderingModule.lib;..\..\Runtime\Platform\Debug\Platform.lib;..\..\Runtime\Core\Debug\CoreModule.lib;..\..\Runtime\Rendering\Debug\RenderingModule.lib;..\..\Runtime\Platform\Debug\Platform.lib;..\..\Runtime\Core\Debug\CoreModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Runtime\Math\Debug\Math.lib;..\..\Runtime\Rendering\Debug\Rendering.lib;..\..\Runtime\Core\Debug\Core.lib;..\..\Runtime\Rendering\Debug\Rendering.lib;..\..\Runtime\Core\Debug\Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -145,10 +145,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -156,7 +156,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\Runtime\MathModule\Release\MathModule.lib;..\..\Runtime\Rendering\Release\RenderingModule.lib;..\..\Runtime\Platform\Release\Platform.lib;..\..\Runtime\Core\Release\CoreModule.lib;..\..\Runtime\Rendering\Release\RenderingModule.lib;..\..\Runtime\Platform\Release\Platform.lib;..\..\Runtime\Core\Release\CoreModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Runtime\Math\Release\Math.lib;..\..\Runtime\Rendering\Release\Rendering.lib;..\..\Runtime\Core\Release\Core.lib;..\..\Runtime\Rendering\Release\Rendering.lib;..\..\Runtime\Core\Release\Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -171,7 +171,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -189,10 +189,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,7 +200,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\Runtime\MathModule\MinSizeRel\MathModule.lib;..\..\Runtime\Rendering\MinSizeRel\RenderingModule.lib;..\..\Runtime\Platform\MinSizeRel\Platform.lib;..\..\Runtime\Core\MinSizeRel\CoreModule.lib;..\..\Runtime\Rendering\MinSizeRel\RenderingModule.lib;..\..\Runtime\Platform\MinSizeRel\Platform.lib;..\..\Runtime\Core\MinSizeRel\CoreModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Runtime\Math\MinSizeRel\Math.lib;..\..\Runtime\Rendering\MinSizeRel\Rendering.lib;..\..\Runtime\Core\MinSizeRel\Core.lib;..\..\Runtime\Rendering\MinSizeRel\Rendering.lib;..\..\Runtime\Core\MinSizeRel\Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -215,7 +215,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\MathModule\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Platform\Public\Windows;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Core\Public\Base;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Math\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public;E:\Main\PEngine\PrototypingProject\Sources\Runtime\Rendering\Public\DirectX;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -243,7 +243,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\..\Runtime\MathModule\RelWithDebInfo\MathModule.lib;..\..\Runtime\Rendering\RelWithDebInfo\RenderingModule.lib;..\..\Runtime\Platform\RelWithDebInfo\Platform.lib;..\..\Runtime\Core\RelWithDebInfo\CoreModule.lib;..\..\Runtime\Rendering\RelWithDebInfo\RenderingModule.lib;..\..\Runtime\Platform\RelWithDebInfo\Platform.lib;..\..\Runtime\Core\RelWithDebInfo\CoreModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\Runtime\Math\RelWithDebInfo\Math.lib;..\..\Runtime\Rendering\RelWithDebInfo\Rendering.lib;..\..\Runtime\Core\RelWithDebInfo\Core.lib;..\..\Runtime\Rendering\RelWithDebInfo\Rendering.lib;..\..\Runtime\Core\RelWithDebInfo\Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -323,13 +323,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Core\CoreModule.vcxproj">
-      <Project>{61C05946-02AC-3356-828F-8370C87E8702}</Project>
-      <Name>CoreModule</Name>
+    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Core\Core.vcxproj">
+      <Project>{501E5BCE-BAED-3706-9B91-DB5B888BEEAE}</Project>
+      <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\MathModule\MathModule.vcxproj">
-      <Project>{C82399F3-EEA4-3402-8F00-49517AAC3287}</Project>
-      <Name>MathModule</Name>
+    <ProjectReference Include="E:\Main\PEngine\PrototypingProject\Project\Runtime\Math\Math.vcxproj">
+      <Project>{0D392585-0FE9-33DB-860E-993587EC938E}</Project>
+      <Name>Math</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

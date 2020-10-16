@@ -1,10 +1,10 @@
 #pragma once
-
+#include <CoreDefine.h>
 #include <PEngineMacros.h>
 
 #define g_PEngineCore PEngineCore::GetInstance()
 
-class PEngineCore
+class CORE_API PEngineCore
 {
 	SINGLETONE(PEngineCore)
 public:
